@@ -19,7 +19,6 @@ public class PrankManager {
         recipients = new ArrayList<String>();
         messages = new ArrayList<String>();
         subjects = new ArrayList<String>();
-        fakesenders = new ArrayList<String>();
 
         File rcpt = new File(pathRcpt);
         File mes = new File(pathMes);
@@ -53,7 +52,6 @@ public class PrankManager {
         Scanner sc = new Scanner(new FileInputStream(mes));
 
         while(sc.hasNextLine()){
-            fakesenders.add(sc.nextLine());
             subjects.add(sc.nextLine());
 
             String message = "";
