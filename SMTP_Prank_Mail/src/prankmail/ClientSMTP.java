@@ -153,6 +153,7 @@ public class ClientSMTP {
             pw.println(ClientCommands.SUB + subjects.get(i));
             pw.println(messages.get(i));
             pw.println(".");
+            System.out.println("server says: " + br.readLine());
         }
     }
 
