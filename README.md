@@ -6,11 +6,11 @@ Ce laboratoire a été réalisé dans le but de comprendre le fonctionnement du 
 
 ## Application
 
-Cette application permet d'envoyer des mails forgés à des listes d'adresse e-mail proposées.
+Cette application permet d'envoyer des mails forgés à des listes d'adresses e-mail proposées.
 
 * La liste des adresses e-mail est définie par le fichier "src/sources/destinataires.txt" chaque adresse devant être séparée par un retour à la ligne
 
-* La liste des messages est définie par le fichier "src/sources/messages.txt" la structure de ce fichier est la suivante: **sujet du message **retour à la ligne **corps du message (retours à la ligne supportés pour structurer le message) **retour à la ligne **mot clé ENDOFMSAGE pour signaler que le corps du message est terminé
+* La liste des messages est définie par le fichier "src/sources/messages.txt" la structure de ce fichier est la suivante: ** sujet du message ** retour à la ligne ** corps du message (retours à la ligne supportés pour structurer le message) ** retour à la ligne ** mot clé ENDOFMSAGE pour signaler que le corps du message est terminé
 
 * L'application commence par demander combien de groupes d'envoi nous voulons (1 minimum)
 
