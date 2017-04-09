@@ -88,5 +88,18 @@ public class PrankManager {
             return fakesenders.get(index);
         return null;
     }
+    public int msg_size(){
+        return messages.size();
+    }
+    public int rcpt_size(){
+        return recipients.size();
+    }
+    public int subj_size(){
+        return subjects.size();
+    }
+    public int fksn_size(){
+        return fakesenders.size();
+    }
+
 
 }
